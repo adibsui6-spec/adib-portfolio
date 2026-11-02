@@ -118,3 +118,7 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme());
     localStorage.setItem('selected-icon', getCurrentIcon());
 });
+
+
+// Force Dark Theme on page load
+document.body.classList.add('dark-theme');
